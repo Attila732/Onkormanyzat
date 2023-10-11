@@ -1,4 +1,4 @@
-/* .container{
+ .container{
 	margin: 0;
 	padding: 0;
 	display: flex;
@@ -6,8 +6,8 @@
 	align-items: center;
 	min-height: 100vh;
 	font-family: 'Jost', sans-serif;
-	background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
-} */
+	background: linear-gradient(to bottom, #0f341c, #265c31, #30643b);
+} 
 .main{
 	width: 350px;
 	height: 500px;

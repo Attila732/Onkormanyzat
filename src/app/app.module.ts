@@ -5,6 +5,9 @@ import { AppComponent } from './app.component';
 import { SignUpComponent } from './login/sign-up.component';
 import { MainComponent } from './main/main.component';
 import { HeaderComponent } from './main/header/header.component';
+import { NavComponent } from './nav/nav.component';
+import { BodyComponent } from './body/body.component';
+
 
 
 
@@ -14,6 +17,9 @@ import { HeaderComponent } from './main/header/header.component';
     SignUpComponent,
     MainComponent,
     HeaderComponent,
+    NavComponent,
+    BodyComponent,
+
 
   ],
   imports: [
