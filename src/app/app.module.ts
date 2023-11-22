@@ -7,6 +7,10 @@ import { MainComponent } from './main/main.component';
 import { HeaderComponent } from './main/header/header.component';
 import { NavComponent } from './nav/nav.component';
 import { BodyComponent } from './body/body.component';
+import { ProfilComponent } from './profil/profil.component';
+import { RouterModule } from '@angular/router';
+import { AppRoutingModule } from './app-routing.modules';
+
 
 
 
@@ -19,12 +23,13 @@ import { BodyComponent } from './body/body.component';
     HeaderComponent,
     NavComponent,
     BodyComponent,
+    ProfilComponent,
 
 
   ],
   imports: [
     BrowserModule,
-    ReactiveFormsModule
+    ReactiveFormsModule, RouterModule.forRoot([]),AppRoutingModule
 
   ],
   providers: [],
