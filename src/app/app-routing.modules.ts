@@ -10,11 +10,9 @@ import { ProfilComponent } from './profil/profil.component';
 
 const routes: Routes = [
 
-  {path:"**", component:BodyComponent, pathMatch:'full'},
+  {path:"*", component:BodyComponent, pathMatch:'full'},
   {path:"app-body", component:BodyComponent,},
-  {path:"sign-up", component:SignUpComponent},
-  {path:"app-profil", component:ProfilComponent},
-  
+  {path:"sign-up", component:SignUpComponent},  
   {path:"app-nav",component:NavComponent},
   {path:"app-orvos-egyeb-ugyek",component:OrvosEgyebUgyekComponent},
   {path:"app-profil",component:ProfilComponent},
